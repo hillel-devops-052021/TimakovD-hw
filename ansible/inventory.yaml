@@ -1,0 +1,13 @@
+all:
+web_hosts:
+  hosts:
+    web:
+      ansible_port: 2222
+      ansible_host: 127.0.0.1
+      ansible_private_key_file: /home/timakovd/TimakovD-hw/.vagrant/machines/web/virtualbox/private_key
+db_hosts:
+  hosts:
+    db:
+      ansible_port: 2200
+      ansible_host: 127.0.0.1
+      ansible_private_key_file: /home/timakovd/TimakovD-hw/.vagrant/machines/db/virtualbox/private_key
